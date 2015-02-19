@@ -12,7 +12,7 @@ url="http://apps.who.int/ebola/en/current-situation/ebola-situation-report"
 # ============================================================================
 script="${folder}/daily.sh"
 
-if [ -f ${script} ]; then
+if [ ! -f ${script} ]; then
     echo "ERROR: script {$script} not found?"
     exit;
 fi
