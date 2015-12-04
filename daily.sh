@@ -17,7 +17,7 @@ previous=`/usr/bin/md5sum "${folder}/previous.reduced.dat" | /bin/cut -f1 -d' '`
 date=`/bin/date`
 
 # if current file is empty, alert user
-if [ ! -s current.reduced.dat ]
+if [ ! -s "${folder}/current.reduced.dat" ]
 then
 	/bin/mail \
 		-s "ebola update ${date} WARNING EMPTY" \
