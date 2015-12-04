@@ -5,7 +5,7 @@
 # ============================================================================
 email="username@example.com"
 folder="/var/www/programs/ebola"
-url="http://apps.who.int/ebola/en/current-situation/ebola-situation-report"
+url="http://apps.who.int/ebola/ebola-situation-reports"
 
 # ============================================================================
 # hopefully this exists
